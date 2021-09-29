@@ -1,14 +1,15 @@
+x = int(input("how many points did the team score?"))
 if  x >= 15:
-    print("Won Gold ")
-    else: 
+        print("Won Gold ")
+else: 
         if x >= 12: 
         print("silver medal")
-    else: 
+else: 
         if x < 9:
         print("No medal!")
-        else:
-            print("they won bronze medal")
+else:
+        print("they won bronze medal")
 
-            x = int(input("how many points did the team score?"))
+            
 
      
